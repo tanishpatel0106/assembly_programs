@@ -8,7 +8,7 @@ L2:     MOV AH,08H
         INT 21H
         CMP AL, 'z' 
         JZ L1 
-        MOV DL, ‘*‘ 
+        MOV DL, '*' 
         MOV AH,02H
         INT 21H 
         JMP L2 
